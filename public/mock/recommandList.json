@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "recommandTitle": "北京万豪行政公寓",
+    "recommandImg": "https://userimg.qunarzz.com/imgs/202003/13/C.1Zcw9XusYrOmq7UVX720.jpg",
+    "recommandDescription": "一居行政公寓， 房间宽敞安静，温度适宜",
+    "price": 1800
+  },
+  {
+    "id": 2,
+    "recommandTitle": "北京北平小院设计酒店",
+    "recommandImg": "https://userimg.qunarzz.com/imgs/202006/11/C.yCxumgOhndvtd4z5g720.jpg",
+    "recommandDescription": "位置超好，离地铁张自忠站就5分钟步行",
+    "price": 1912
+  },
+  {
+    "id": 3,
+    "recommandTitle": "北京HiMaMa亲子庄园",
+    "recommandImg": "https://userimg.qunarzz.com/imgs/201808/29/C._M0DCiiWFkxT0DSsi720.jpg",
+    "recommandDescription": "酒店早餐种类非常丰富，餐厅的气锅鱼鱼肉很鲜嫩",
+    "price": 1400
+  },
+  {
+    "id": 4,
+    "recommandTitle": "古北水镇镖局客栈",
+    "recommandImg": "https://userimg.qunarzz.com/imgs/201607/27/C._M0DCiyb1Aj2nr3_i720.jpg",
+    "recommandDescription": "洗手间也挺宽敞，古北水镇的所有自来水都是可饮用水",
+    "price": 1284
+  },
+  {
+    "id": 5,
+    "recommandTitle": "北京崇文门饭店",
+    "recommandImg": "https://userimg.qunarzz.com/imgs/202008/03/C.BxZ-SUkWq6CjphFFk720.jpg",
+    "recommandDescription": "北京崇文门饭店位于北京市市中心",
+    "price": 1152
+  },
+  {
+    "id": 6,
+    "recommandTitle": "贯通现代酒店(北京前门店)",
+    "recommandImg": "https://userimg.qunarzz.com/imgs/201812/15/C._M0DCiiiFHec4AuFi720.jpg",
+    "recommandDescription": "位置超好，出门就是珠市口地铁站",
+    "price": 406
+  }
+]

@@ -4,11 +4,8 @@
       <i class="iconfont toutiao-arrow-left-bold"></i>
     </div>
     <div class="search-input">
-      <!-- <input type="text"> -->
-      <div class="input">
-        <i class="iconfont toutiao-search"></i>
-        输入城市/景点/游玩主题
-      </div>
+      <i class="iconfont toutiao-search"></i>
+      <input type="text" placeholder="输入城市/景点/游玩主题">
     </div>
     <div class="city-select">
       城市
@@ -35,25 +32,27 @@ export default {
   .back-btn {
     width: 64px;
     text-align: center;
+    margin-right: 5px;
+    i {
+      font-size: 20px;
+    }
   }
   .search-input {
+    position: relative;
     flex: 1;
-    box-sizing: border-box;
-    padding: 12px 10px;
-    .input {
-      display: flex;
-      align-items: center;
+    line-height: 86px;
+    i {
       color: #ccc;
-      padding: 0 5px;
-      background-color: #fff;
-      box-sizing: border-box;
-      border-radius: 5px;
-      border: none;
+      position: absolute;
+      left: 10px;
+      font-size: 18px;
+    }
+    input {
+      padding-left: 52px;
       width: 100%;
-      height: 100%;
-      i{
-        margin-right: 10px;
-      }
+      border-radius: 5px;
+      height: 60px;
+      line-height: 60px;
     }
   }
   .city-select {

@@ -1,0 +1,17 @@
+@mixin border-1px-bottom($bgc) {
+  position: relative;
+  &::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    content: '';
+    border-bottom: 1px solid $bgc;
+    @media screen and (-webkit-min-device-pixel-ratio: 2) {
+      transform: scaleY(0.5);
+    }
+    @media screen and (-webkit-min-device-pixel-ratio: 3) {
+      transform: scaleY(0.333);
+    }
+  }
+}
