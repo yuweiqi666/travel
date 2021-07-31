@@ -14,10 +14,14 @@
 </template>
 
 <script>
-import { getIconsApi } from '@/api/home'
 import { swiper, swiperSlide } from 'vue-awesome-swiper'
 export default {
   name: 'Icons',
+  props: {
+    iconList: {
+      type: Array
+    }
+  },
   data () {
     return {
       notNextTick: true,
@@ -27,8 +31,7 @@ export default {
       },
       swiperOption: {
         direction: 'horizontal'
-      },
-      iconList: []
+      }
     }
   },
   computed: {
@@ -39,13 +42,8 @@ export default {
         result.push(this.iconList.slice(index, index + 10))
         index += 10
       }
-      console.log(result)
       return result
     }
-  },
-  async created () {
-    const { data } = await getIconsApi()
-    this.iconList = data.data
   }
 }
 </script>

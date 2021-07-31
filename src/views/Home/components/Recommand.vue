@@ -25,21 +25,12 @@
 </template>
 
 <script>
-import { getRecommandListApi } from '@/api/home.js'
 export default {
   name: 'Recommand',
-  data () {
-    return {
-      recommandList: []
+  props: {
+    recommandList: {
+      type: Array
     }
-  },
-  methods: {
-
-  },
-  async created () {
-    const { data } = await getRecommandListApi()
-    console.log('推荐列表', data)
-    this.recommandList = data.data
   }
 }
 </script>

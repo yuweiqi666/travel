@@ -11,12 +11,16 @@
 
 <script>
 import { swiper, swiperSlide } from 'vue-awesome-swiper'
-import { getImgRunApi } from '@/api/home'
 export default {
   name: 'Swiper',
   components: {
     swiper,
     swiperSlide
+  },
+  props: {
+    imgList: {
+      type: Array
+    }
   },
   data () {
     return {
@@ -27,14 +31,9 @@ export default {
         autoplayDisableOnInteraction: false,
         direction: 'horizontal',
         pagination: '.swiper-pagination'
-      },
-      imgList: []
-    }
-  },
-  async created () {
-    const { data } = await getImgRunApi()
+      }
 
-    this.imgList = data.data
+    }
   }
 }
 </script>

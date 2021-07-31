@@ -8,7 +8,7 @@
       <input type="text" placeholder="输入城市/景点/游玩主题">
     </div>
     <div class="city-select">
-      城市
+      {{ city }}
       <i class="iconfont toutiao-arrow-down-filling"></i>
     </div>
   </div>
@@ -16,7 +16,12 @@
 
 <script>
 export default {
-  name: 'Header'
+  name: 'Header',
+  props: {
+    city: {
+      type: String
+    }
+  }
 }
 </script>
 
